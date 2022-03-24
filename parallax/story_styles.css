@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 35px;
+	font-family: dystopian,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.8em;
+	color: #667;	
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: none;
+	
+	/*fixed=parallax, scroll=normal*/
+	
+	background-attachment: fixed;
+}
+
+.pimg1{
+	height: 100%;
+	background-image:url("../parallax/images_parallax/bookshelf.jpg")
+}
+
+.pimg2{
+	height: 100%;
+	background-image:url("../parallax/images_parallax/forest.jpg")
+}
+
+.pimg3{
+	height: 100%;
+	background-image:url("../parallax/images_parallax/beds.jpg")
+}
+
+.pimg4{
+	height: 100%;
+	background-image:url("../parallax/images_parallax/lightbulb.jpg")
+}
+
+.pimg5{
+	height: 100%;
+	background-image:url("../parallax/images_parallax/man.jpg")
+}
+
+
+
+
+
+
+.section{
+	text-align:center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #FFFFFF;
+	color: #667;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #938E8E;
+}
+
+.ptext{
+	position:absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size:50px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .border{
+	background-color: #ADB092;
+	color: white;
+	padding: 20px;
+}
+.pimg3 .ptext .border {
+	background-color: rgba(82,82,82,1.00);
+	border-width: medium;
+	border-style: double;
+	border-radius: 50px;
+	font-family: "Dystopian Regular";
+}
+.pimg4 .ptext .border {
+	border-width: medium;
+	border-style: double;
+	border-radius: 50px;
+	font-family: "Dystopian Regular";
+}
+.pimg5 .ptext .border {
+	border-width: medium;
+	border-style: double;
+	border-radius: 50px;
+	font-family: "Dystopian Regular";
+}
+.pimg1 .ptext .border {
+	background-color: rgba(158,129,136,1.00);
+	border-radius: 50px;
+	border-width: medium;
+	border-style: double;
+	font-family: "Dystopian Regular";
+}
+.pimg2 .ptext .border {
+	border-radius: 50px;
+	border-width: medium;
+	border-style: double;
+	font-family: "Dystopian Regular";
+}
+a {
+	text-decoration: underline;
+	color: #9E8188;
+}
+
+@media(max-width:578px){
+	.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
+	background-attachment: scroll;
+	}
+.pimg1 .ptext .border{
+	font-size: 25px;		
+	}
+.pimg2 .ptext .border{
+	font-size: 25px;		
+	}
+.pimg3 .ptext .border{
+	font-size: 25px;		
+	}
+.pimg4 .ptext .border{
+	font-size: 25px;		
+	}
+.pimg5 .ptext .border{
+	font-size: 10px;		
+	}
+body, html{
+	font-size: 20px;	
+	}	
+}
+
+
+
+
+
+
+
+
+	
+	
+	
